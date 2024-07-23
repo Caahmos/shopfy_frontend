@@ -3,9 +3,9 @@ import Logo from "../../../assets/logo-Jm4BVSCI.png";
 
 const Footer: React.FC = () => {
   return (
-    <div data-aos="zoom in" className="dark:bg-gray-950 dark:text-white bg-gray-100 py-12">
+    <div className="dark:bg-gray-950 dark:text-white bg-gray-100 py-12">
       <div className="container">
-        <div className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-4 place-items-center text-center md:text-left">
+        <div data-aos="zoom in" className="grid grid-cols-1 gap-5 md:gap-0 md:grid-cols-4 place-items-center text-center md:text-left">
           <div className="flex flex-col gap-5">
             <div className="flex gap-3 items-center">
               <img className="w-12 h-12" src={Logo} alt="" />
