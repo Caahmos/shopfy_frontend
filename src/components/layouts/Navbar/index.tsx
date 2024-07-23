@@ -13,9 +13,9 @@ const Navbar: React.FC = () => {
       <div className="bg-primary/40 py-2">
         <div className="container flex justify-between items-center">
           <div>
-            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+            <a href="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10 uppercase" />
-              Shopsy
+              Shopfy
             </a>
           </div>
           <div className="flex justify-between gap-3 items-center">

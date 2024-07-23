@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const TopProducts: React.FC = () => {
   return (
-    <div>
+    <div className="dark:bg-gray-900 dark:text-white">
       <div className="container">
         <div className="text-center max-w-[600px] mx-auto mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
@@ -22,7 +22,7 @@ const TopProducts: React.FC = () => {
           {TopProductsList.map((data) => (
             <div 
             data-aos="zoom-in"
-            className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hober:text-white relative shadow-xl duration-high group max-w-[300px]">
+            className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary dark:text-white hover:text-white relative shadow-xl duration-high group max-w-[300px]">
               <div className="h-[100px]">
                 <img
                   src={data.img}

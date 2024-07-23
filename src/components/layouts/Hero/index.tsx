@@ -11,9 +11,9 @@ const Hero: React.FC = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplayspeed: 10000,
+    autoplaySpeed: 10000,
     cssEase: "ease-in-out",
-    pauseOnHover: false,
+    pauseOnHover: true,
     pauseOnFocus: true,
   };
 

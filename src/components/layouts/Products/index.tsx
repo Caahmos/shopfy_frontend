@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const Products: React.FC = () => {
   return (
-    <div className='mt-14 mb-12'>
+    <div className='py-12 dark:bg-gray-900 dark:text-white'>
         <div className='container'>
             <div className='text-center mb-10 max-w-[600px] mx-auto'>
                 <p data-aos="fade-up" className='text-sm text-primary'>Top Selling Products for you</p>
